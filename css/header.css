@@ -1,0 +1,97 @@
+#header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 110;
+}
+
+.header_desktop {
+	display: block;
+	position: relative;
+	z-index: 100;
+	min-width: 1260px;
+	height: 8rem;
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, .08);
+	background-color: white;
+}
+
+.header_logo {
+	position: absolute;
+	top: 50%;
+	left: 4.8rem;
+	transform: translateY(-50%);
+}
+
+.header_logo a{
+	display: block;
+	width: 5.3rem;
+	height: 5.3rem;
+	background: url(/img/ic_gnb_logo.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.menu {
+	display: block;
+}
+
+.menu ul {
+	display: inline-block;
+	list-style: none;
+}
+
+.menu ul > li {
+	margin: 0;
+	float: left;
+}
+
+.menu ul > li > a {
+	font-size: 1.4rem;
+	padding: 0 1rem;
+
+	display: inline-block;
+	font-family: 'YouandiModern';
+	line-height: 8rem;
+	font-weight: 700;
+
+	color: black;
+	position: relative;
+	text-decoration: none;
+}
+
+.top_right
+{
+	position: absolute;
+	top: 50%;
+	right: 4.8rem;
+	margin-top: -1.5rem;
+}
+
+.top_right a ~ a {
+	margin-left: 0.7rem;
+}
+
+.header_btn_search {
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+	border: 0;
+	background: url('/img/ico-search.svg')  50% 50% no-repeat;
+}
+
+.header_btn_noti {
+	display: inline-block;
+	width: 3.3rem;
+	height: 3rem;
+	border: 0;
+	background: url('/img/ico-notification.svg')  50% 50% no-repeat;
+}
+
+.header_btn_cart {
+	display: inline-block;
+
+	width: 3.3rem;
+	height: 3rem;
+	background: url('/img/ico-cart.svg') 50% 50% no-repeat;
+}
